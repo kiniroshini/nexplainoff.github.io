@@ -1,0 +1,79 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+    
+}
+:root {
+    --hue-neutral: 200;
+    --hue-wrong : 0;
+    --hue-correct: 145;
+}
+
+body.correct {
+    background-image: url(file:///C:/Users/roshini%20kini/Downloads/indexbg.jpg);
+
+    --hue: var(--hue-correct);
+}
+body.wrong{
+    --hue: var(--hue-wrong);
+}
+ 
+  
+.container{
+    
+    width: 800px;
+    max-width: 80%;
+    background-color: burlywood;
+    border-radius : 5px;
+    padding : 10px;
+    box-shadow: 0 0 10px 2px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU_rAbzImKoUe99nwANLUxxY3N6S3s9o7CIw&usqp=CAU);
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn{
+    --hue : var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue),100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(255, 255, 255);
+    outline:none;
+}
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwritingcooperative.com%2Fthe-power-of-reading-books-from-different-genres-621c237a4af7&psig=AOvVaw22n4OxCrtsGsVU1k1XPVx6&ust=1603289546928000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLD_jsyzw-wCFQAAAAAdAAAAABAJ);
+backdrop-filter: var(--hue-neutral);
+
+}
+.color:hover
+{
+        background:#53a7ea;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+    
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }

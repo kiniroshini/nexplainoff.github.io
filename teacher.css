@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content : initial;
+    align-items : center
+    height : 100vh;
+background-image : url(data:image/jpeg;base64,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)
+  }
+  
+  p {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+   /* Main styles */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+/**
+ * cssanimation.css
+ * https://www.cssanimatio.io
+ * Created and maintained by: Pavel
+ * Find me at: https://www.linkedin.com/in/yesiamrocks/
+ * Email: hello@cssanimation.io
+ * Github: https://github.com/yesiamrocks/cssanimation.io
+ * Title: A CSS Animation Library for Developers and Ninjas
+ * Copyright (c) 2017 Pavel
+ * License: cssanimation.io is licensed under the MIT license
+ **/
+
+ body {
+    overflow: hidden;
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+}
+
+div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+    font-size: 4.3em;
+    letter-spacing: -4px;
+    font-weight: 700;
+    color: #e6c8f3;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.rotate { animation-name: rotate; animation-timing-function: ease-in-out }
+@keyframes rotate {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}

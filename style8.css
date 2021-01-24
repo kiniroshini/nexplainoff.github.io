@@ -1,0 +1,48 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-style: initial;
+    font-family: serif;
+    align-items: center;
+    background-color: black;
+    background-image: url(file:///C:/Users/roshini%20kini/Downloads/middlenexplain.jpeg);
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color:red;
+    border-radius : 5px;
+    padding : 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn{
+    --hue : var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue),100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(157, 18, 221);
+    border-color: rgb(218, 128, 25);
+}
+button {
+    color: crimson;
+}
+.border:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+.color:hover
+{
+        background: yellowgreen;
+}

@@ -1,0 +1,52 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-style: initial;
+    font-family: serif;
+    align-items: center;
+    background-color: black;
+    background-image: url(file:///C:/Users/roshini%20kini/Downloads/secondary%20nexplainfinal.jpg);
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color: gray;
+    border-radius : 5px;
+    padding : 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn{
+    --hue : var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue),100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(255, 255, 255);
+    border-color: yellow;
+}
+button {
+    color: crimson;
+}
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:7;
+}
+.circle:hover
+{
+        border-radius:50%;
+}

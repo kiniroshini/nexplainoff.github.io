@@ -1,0 +1,104 @@
+head{height: 34px  ;
+font-size: 50px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body {
+    
+    padding:0;
+    margin:0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-style: initial;
+    font-family: serif;
+    align-items: center;
+    background-image: url(https://media.wired.com/photos/5be4cd03db23f3775e466767/125:94/w_2375,h_1786,c_limit/books-521812297.jpg);}
+    marquee {
+        font-style: italic;
+        font-size: x-large;
+        font-family: fantasy;
+    }
+    head {
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-display: orange;
+    }
+    .shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+@keyframes stretch {
+    /* declare animation actions here */
+  }
+  
+  .element {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running; 
+  }
+  
+  /*
+    is the same as:
+  */
+  
+  .element {
+    animation: 
+      stretch
+      1.5s
+      ease-out
+      0s
+      alternate
+      infinite
+      none
+      running;
+  }
+  /* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+  

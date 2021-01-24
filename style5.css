@@ -1,0 +1,13 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-style: initial;
+    font-family: serif;
+    align-items: center;
+    background-image: url(https://image.shutterstock.com/image-vector/set-diverse-college-university-students-260nw-1150054505.jpg);
+    
+}
